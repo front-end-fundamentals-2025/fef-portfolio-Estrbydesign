@@ -7,11 +7,13 @@ h1 {
 
 
 h2 {
+    padding-top: 3%;
   padding-left: 2%;
   font-family: "Press Start 2P";
 }
 
 p {
+  
   padding-left: 2%;
 }
 /* help from chatgpt*/
@@ -25,7 +27,7 @@ nav ul {
 /*spacing and design of list*/
 nav ul li {
   margin: 0%;
-  margin-right: 50px;
+  margin-right: 160px;
   display: inline-block;
 }
 
@@ -38,10 +40,14 @@ a {
 
 /* about me scanned image*/
 .about-image {
-  width: 50%;
-  display: flex;
+  width: 30%;
+  border: 1px solid black;
+  margin-top: 5%;
+  
   
 }
+
+
 
 footer {
     margin-top: 10rem;
@@ -49,6 +55,7 @@ footer {
     
 }
 
+/* second page*/
 .contact-form {
     margin: 30px;
     border: 2px solid black;
