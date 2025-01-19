@@ -29,14 +29,6 @@ nav ul li {
   display: inline-block;
 }
 
-.rectangle {
-    width: 300px;
-    height: 150px;
-    background-color:rgb(166, 166, 166) ;
-    border: 2px solid black;
-    border-radius: 10px;
-
-}
 
 a {
   color: #0107cd;
@@ -47,7 +39,7 @@ a {
 /* about me scanned image*/
 .about-image {
   width: 50%;
-  display: inline-block;
+  display: flex;
   
 }
 
@@ -68,3 +60,11 @@ footer {
 #message{
     padding-bottom: 20%;
 }
+
+#submit {
+    text-align: center;
+    color: #0107cd;
+    font-weight: 1000;
+  
+}
+
