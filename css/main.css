@@ -5,15 +5,13 @@ h1 {
   padding-left: 2%;
 }
 
-
 h2 {
-    padding-top: 3%;
+  padding-top: 3%;
   padding-left: 2%;
   font-family: "Press Start 2P";
 }
 
 p {
-  
   padding-left: 2%;
 }
 /* help from chatgpt*/
@@ -31,11 +29,14 @@ nav ul li {
   display: inline-block;
 }
 
-
 a {
   color: #0107cd;
   text-decoration: none;
   font-weight: bold;
+}
+
+a:hover {
+  color: black;
 }
 
 /* about me scanned image*/
@@ -43,35 +44,32 @@ a {
   width: 30%;
   border: 1px solid black;
   margin-top: 5%;
-  
-  
 }
 
-
-
 footer {
-    margin-top: 10rem;
-    border-top: 1px solid black ;
-    
+  margin-top: 10rem;
+  border-top: 1px solid black;
 }
 
 /* second page*/
 .contact-form {
-    margin: 30px;
-    border: 2px solid black;
-    color: rgb(101, 101, 101);
-  
-
+  margin: 30px;
+  border: 2px solid black;
+  color: rgb(101, 101, 101);
 }
 /* contact form message*/
-#message{
-    padding-bottom: 20%;
+#message {
+  padding-bottom: 20%;
 }
 
 #submit {
-    text-align: center;
-    color: #0107cd;
-    font-weight: 1000;
-  
+  text-align: center;
+  color: #0107cd;
+  font-weight: 1000;
 }
-
+/*form placeholder*/
+input::placeholder {
+  color: #0107cd;
+}
+form {
+}
