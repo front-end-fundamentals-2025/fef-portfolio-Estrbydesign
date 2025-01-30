@@ -6,14 +6,13 @@ header {
 }
 
 /* LOGO*/
-#logo {
+h1 {
   font-family: "Press Start 2P";
   padding-left: 2%;
-  font-size: 1.6rem;
 }
 
 h2 {
-  padding-left: 0%;
+  padding-left: 2%;
   font-family: "Press Start 2P";
 }
 
@@ -22,17 +21,18 @@ p {
 }
 /* help from chatgpt*/
 /* home,about me, contact list*/
-ul {
+nav ul {
   list-style: none; /* remove bulletpoints from list */
   display: flex; /* align horizontally*/
   text-justify: center;
-  padding-left: 0;
 }
 /*spacing and design of list*/
-li {
-  margin-left: 15rem;
+nav ul li {
+  padding-inline: 8%;
+  margin-top: 1rem;
   display: flex;
   text-justify: center;
+  justify-content: space-between;
 }
 
 a {
