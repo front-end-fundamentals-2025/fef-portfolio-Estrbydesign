@@ -1,14 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&family=Press+Start+2P&display=swap");
 
-
-
-.work-gallery{
-    width: 20%;
-    
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-/* Gallery of topics*/
-.gallery{
-    margin-left:0%;
+.work-gallery {
+  width: 90%;
+  row-gap: 2rem;
+  display: flex;
+}
+
+
+/* Gallery of topics/ figure
+.gallery {
+  margin-left: 0%;
+
+}
+  */
+
+figure {
+  margin-left: 0%;
+  grid-area: img;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-areas: "img img img img";
 }

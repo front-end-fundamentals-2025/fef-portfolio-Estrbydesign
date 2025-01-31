@@ -3,12 +3,14 @@
 
 header {
   display: flex;
+  flex-direction: column;
 }
 
 /* LOGO*/
 h1 {
   font-family: "Press Start 2P";
   padding-left: 2%;
+  font-size: 1.5rem ;
 }
 
 h2 {
@@ -21,18 +23,15 @@ p {
 }
 /* help from chatgpt*/
 /* home,about me, contact list*/
-nav ul {
-  list-style: none; /* remove bulletpoints from list */
-  display: flex; /* align horizontally*/
-  text-justify: center;
-}
-/*spacing and design of list*/
-nav ul li {
-  padding-inline: 8%;
-  margin-top: 1rem;
+
+ul{
   display: flex;
-  text-justify: center;
-  justify-content: space-between;
+  list-style: none;
+  padding-left: 0%;
+}
+
+li{
+  margin-left: 3rem;
 }
 
 a {
