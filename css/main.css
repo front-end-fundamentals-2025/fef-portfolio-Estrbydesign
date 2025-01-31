@@ -10,7 +10,7 @@ header {
 h1 {
   font-family: "Press Start 2P";
   padding-left: 2%;
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -24,14 +24,14 @@ p {
 /* help from chatgpt*/
 /* home,about me, contact list*/
 
-ul{
+ul {
   display: flex;
   list-style: none;
   padding-left: 0%;
 }
 
-li{
-  margin-left: 3rem;
+li {
+  margin-left: 14rem;
 }
 
 a {
@@ -51,35 +51,38 @@ a:hover {
   color: rgb(51, 0, 255);
 }
 
-/*
+
 footer {
-  margin-top: 1rem;
-  background: black;
-  padding: 70px 5%;
+  margin-top: 5rem;
+  padding: 80px 5%;
   
+} 
 
-  
-} */
 
-/* Home image*/
+
 img {
-  margin-top: -10%;
   padding-left: 2%;
   width: 90%;
   height: auto;
-  display: flex;
-  justify-content: center;
 }
 
-/* second page*/
+
+
+
+form {
+  padding-left: 2rem;
+}
+
+/* 
 .contact-form {
   margin: 30px;
   border: 2px solid black;
   color: rgb(101, 101, 101);
-}
+} */
 /* contact form message*/
 #message {
   padding-bottom: 20%;
+  padding-left: 2rem;
 }
 
 #submit {
@@ -92,8 +95,30 @@ input::placeholder {
   color: #0107cd;
 }
 
-@media (max-width: 430px) {
-  body {
-    background-color: red;
+#ester-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+@media screen and (max-width: 1183px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  h1{
+    size-adjust: auto;
+  
+  }
+
+  ul{
+    margin-top:3rem ;
+  }
+
+  li {
+    margin-left: 1%;
   }
 }
