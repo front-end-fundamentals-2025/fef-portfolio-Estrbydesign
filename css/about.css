@@ -1,0 +1,24 @@
+.animated-gradient {
+  height: 500px;
+  animation-name: color-animation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: 45%;
+}
+
+@keyframes color-animation {
+  0% {
+    background-color: rgb(158, 208, 255);
+  }
+  35% {
+    background-color: rgb(250, 196, 229);
+  }
+  65% {
+    background-color: rgb(255, 241, 161);
+  }
+  55% {
+    background-color: rgb(243, 108, 45);
+  }
+}
