@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&family=Press+Start+2P&display=swap");
 
-
-
-
 h2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-
-
 
 .gallery {
   flex-direction: column;
@@ -17,40 +12,28 @@ h2 {
 }
 
 .work-gallery {
-  height: 100%;
-  width: 100%;
-  
   display: flex;
-}
-
-
-
-figure {
-  grid-area: img;
-  
 }
 
 figcaption {
   text-align: center;
   padding-top: 1rem;
-  
 }
 
-@media screen and (min-width:440px) {
-    .portfolio-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 3rem;
-        column-gap: 3rem;
-      }
+@media screen and (min-width: 440px) {
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+    column-gap: 3rem;
+  }
 }
 
-@media screen and (min-width:900px) {
-    .portfolio-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        row-gap: 3rem;
-        column-gap: 1rem;
-      }
+@media screen and (min-width: 900px) {
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    column-gap: 1rem;
+  }
 }
-    

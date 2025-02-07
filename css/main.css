@@ -51,23 +51,16 @@ a:hover {
   color: rgb(51, 0, 255);
 }
 
-
 footer {
   margin-top: 5rem;
   padding: 80px 5%;
-  
-} 
-
-
+}
 
 img {
   padding-left: 2%;
   width: 90%;
   height: auto;
 }
-
-
-
 
 form {
   padding-left: 2rem;
@@ -95,12 +88,15 @@ input::placeholder {
   color: #0107cd;
 }
 
-#ester-logo {
+#ester-logo-png {
+  width: 500px;
+}
+
+#ester-logo{
   display: flex;
   justify-content: center;
   align-content: center;
 }
-
 
 @media screen and (max-width: 1183px) {
   header,
@@ -109,13 +105,13 @@ input::placeholder {
     align-items: start;
   }
 
-  h1{
+  h1 {
     size-adjust: auto;
-  
   }
 
-  ul{
-    margin-top:3rem ;
+  ul {
+    margin-top: 1rem;
+    padding-bottom: 3rem;
   }
 
   li {
