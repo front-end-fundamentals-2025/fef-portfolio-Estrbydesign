@@ -13,6 +13,7 @@ h2 {
 
 .work-gallery {
   display: flex;
+  width: 70%;
 }
 
 figcaption {

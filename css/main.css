@@ -18,6 +18,35 @@ h2 {
   font-family: "Press Start 2P";
 }
 
+/*DARK MODE BUTTON*/
+ #dark-mode {
+  height: 30px;
+  width: 80px;
+  padding: 0;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+} 
+
+.dark-mode{
+  background-color: black;
+  color: white;
+
+}
+
+.dark-mode a {
+  color: white;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+
+}
+
 p {
   padding-left: 2%;
 }
@@ -56,12 +85,6 @@ footer {
   padding: 80px 5%;
 }
 
-img {
-  padding-left: 2%;
-  width: 90%;
-  height: auto;
-}
-
 form {
   padding-left: 2rem;
 }
@@ -85,17 +108,18 @@ form {
 }
 /*form placeholder*/
 input::placeholder {
-  color: #0107cd;
+  color: rgb(163, 163, 163);
 }
 
 #ester-logo-png {
-  width: 500px;
+  width: 60%;
 }
 
 #ester-logo{
   display: flex;
   justify-content: center;
   align-content: center;
+ 
 }
 
 @media screen and (max-width: 1183px) {
