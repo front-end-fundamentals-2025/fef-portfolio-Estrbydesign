@@ -1,8 +1,8 @@
 const buttonElement = document.getElementById("dark-mode");
 
-let theme = "dark-mode" || "light-mode";
+let theme = "light-mode";
 localStorage.theme = theme;
-let newtheme = localStorage.theme;
+// let newtheme = localStorage.theme;
 
 // if (theme === "dark-mode"){
 //     document.body.classList.add("dark-mode")
@@ -10,17 +10,13 @@ let newtheme = localStorage.theme;
 //     document.body.classList.remove("dark-mode");
 // }
 
-
-
-
-buttonElement.addEventListener("click", function(event) {
-    document.body.classList.toggle("dark-mode");
-    // localStorage.theme = theme;
-
+buttonElement.addEventListener("click", function (event) {
+  document.body.classList.add("dark-mode");
+  localStorage.theme = theme;
 });
 
 if (document.body.classList.contains("dark-mode")) {
-    localStorage.theme = "dark-mode";
+  localStorage.theme = "dark-mode";
 } else {
-    localStorage.theme = "light-mode";
+  localStorage.theme = "light-mode";
 }

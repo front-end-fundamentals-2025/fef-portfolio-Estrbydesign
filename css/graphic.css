@@ -1,4 +1,59 @@
-img{
-    padding-top: 2rem;
-    width: 50%;
+/* .illustration-gallery {
+  flex-direction: column;
+  align-items: center;
 }
+
+.illustrations {
+  display: flex;
+  width: 30%;
+}
+
+.illustration-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+    column-gap: 3rem; 
+} */
+
+/* General Styling */
+
+
+.illustration-container {
+  display: flex;
+  height: 100vh;
+}
+
+figcaption{
+  padding: 0%;
+}
+
+
+
+/* Left Column: Text */
+.text-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-column h1 {
+  margin-top: 0;
+}
+
+/* Right Column: Scrollable Images */
+.scrollable-column {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  
+}
+
+.scrollable-column img {
+    width: 50%; /* Set a maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+    margin-bottom: 5px; /* Space between images */
+
+  }
+  
+
+
+
